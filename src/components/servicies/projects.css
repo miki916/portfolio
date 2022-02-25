@@ -1,0 +1,49 @@
+@import "../../variables.css";
+
+.project_container{
+    overflow:initial;
+}
+
+.project_container{
+    padding: 0rem 1rem 5rem;
+    
+    
+
+}
+
+.project_img{
+    width: 265px;
+    margin:auto;
+    border-radius: .5rem;
+}
+
+.project_title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.project_description{
+    margin-bottom: var(--mb-0-75) ;
+}
+
+.project_button:hover .button_icon{
+    transform: translateX(.25rem);
+}
+
+.swiper-button-next::after,.swiper-button-prev::after { 
+   font-size: 2rem;
+   color: var(--first-color);
+}
+.project_content,.swiper-slide{
+
+    width: 50%;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
